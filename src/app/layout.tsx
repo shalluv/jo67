@@ -4,6 +4,8 @@ import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
 import { Toaster } from "@/components/ui/toaster";
+import { Howl } from "howler";
+import { Bgm } from "@/components/bgm";
 
 const myFont = localFont({
   src: "./Manorah.ttf",
@@ -50,6 +52,7 @@ export default function RootLayout({
       >
         {children}
         <Toaster />
+        <Bgm />
       </body>
     </html>
   );
