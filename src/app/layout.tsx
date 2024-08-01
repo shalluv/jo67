@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "สุภาพบุรุษโจ๋ทาเทพ",
-    images: ["https://jo67.shalluv.com/og.png"],
+    images: ["https://jo67.shalluv.com/og.webp"],
   },
 };
 
